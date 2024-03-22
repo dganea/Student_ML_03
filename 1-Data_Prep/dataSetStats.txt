@@ -1,0 +1,289 @@
+RangeIndex: 12411 entries, 0 to 12410
+Data columns (total 44 columns):
+
+ #   Column            Non-Null Count  Dtype 
+---  ------            --------------  ----- 
+ 0   COD_S11           12411 non-null  object
+ 1   GENDER            12411 non-null  object
+ 2   EDU_FATHER        12411 non-null  object
+ 3   EDU_MOTHER        12411 non-null  object
+ 4   OCC_FATHER        12411 non-null  object
+ 5   OCC_MOTHER        12411 non-null  object
+ 6   STRATUM           12411 non-null  object
+ 7   SISBEN            12411 non-null  object
+ 8   PEOPLE_HOUSE      12411 non-null  object
+ 9   INTERNET          12411 non-null  object
+ 10  TV                12411 non-null  object
+ 11  COMPUTER          12411 non-null  object
+ 12  WASHING_MCH       12411 non-null  object
+ 13  MIC_OVEN          12411 non-null  object
+ 14  CAR               12411 non-null  object
+ 15  DVD               12411 non-null  object
+ 16  FRESH             12411 non-null  object
+ 17  PHONE             12411 non-null  object
+ 18  MOBILE            12411 non-null  object
+ 19  REVENUE           12411 non-null  object
+ 20  JOB               12411 non-null  object
+ 21  SCHOOL_NAME       12411 non-null  object
+ 22  SCHOOL_NAT        12411 non-null  object
+ 23  SCHOOL_TYPE       12411 non-null  object
+ 24  MAT_S11           12411 non-null  int64 
+ 25  CR_S11            12411 non-null  int64 
+ 26  CC_S11            12411 non-null  int64 
+ 27  BIO_S11           12411 non-null  int64 
+ 28  ENG_S11           12411 non-null  int64 
+ 29  Cod_SPro          12411 non-null  object
+ 30  UNIVERSITY        12411 non-null  object
+ 31  ACADEMIC_PROGRAM  12411 non-null  object
+ 32  QR_PRO            12411 non-null  int64 
+ 33  CR_PRO            12411 non-null  int64 
+ 34  CC_PRO            12411 non-null  int64 
+ 35  ENG_PRO           12411 non-null  int64 
+ 36  WC_PRO            12411 non-null  int64 
+ 37  FEP_PRO           12411 non-null  int64 
+ 38  G_SC              12411 non-null  int64 
+ 39  PERCENTILE        12411 non-null  int64 
+ 40  2ND_DECILE        12411 non-null  int64 
+ 41  QUARTILE          12411 non-null  int64 
+ 42  SEL               12411 non-null  int64 
+ 43  SEL_IHE           12411 non-null  int64 
+
+
+GENDER
+M    7368
+F    5043
+Name: count, dtype: int64
+
+EDU_FATHER
+Complete professional education          3016
+Complete Secundary                       2843
+Complete technique or technology         1194
+Incomplete Secundary                     1091
+Postgraduate education                   1085
+Complete primary                          824
+Incomplete primary                        735
+Incomplete Professional Education         425
+Not sure                                  407
+0                                         391
+Incomplete technical or technological     277
+Ninguno                                   123
+Name: count, dtype: int64
+
+EDU_MOTHER
+Complete Secundary                       3106
+Complete professional education          3059
+Complete technique or technology         1495
+Incomplete Secundary                     1056
+Postgraduate education                    997
+Complete primary                          713
+Incomplete primary                        541
+Incomplete Professional Education         502
+0                                         388
+Incomplete technical or technological     341
+Not sure                                  179
+Ninguno                                    34
+Name: count, dtype: int64
+
+OCC_FATHER
+Independent                                 2907
+Technical or professional level employee    1803
+Operator                                    1537
+Other occupation                            1087
+Executive                                   1077
+0                                            940
+Independent professional                     915
+Small entrepreneur                           692
+Retired                                      532
+Entrepreneur                                 472
+Auxiliary or Administrative                  372
+Home                                          77
+Name: count, dtype: int64
+
+OCC_MOTHER
+Home                                        4658
+Technical or professional level employee    1795
+Independent                                 1107
+Auxiliary or Administrative                  846
+Executive                                    794
+Independent professional                     715
+Operator                                     684
+Other occupation                             607
+Small entrepreneur                           492
+0                                            313
+Entrepreneur                                 242
+Retired                                      158
+Name: count, dtype: int64
+
+STRATUM
+Stratum 3    4045
+Stratum 2    4029
+Stratum 1    1709
+Stratum 4    1578
+Stratum 5     633
+Stratum 6     403
+0              14
+Name: count, dtype: int64
+
+SISBEN
+It is not classified by the SISBEN           7534
+Level 2                                      2120
+Level 1                                      2057
+Level 3                                       583
+Esta clasificada en otro Level del SISBEN      96
+0                                              21
+Name: count, dtype: int64
+
+PEOPLE_HOUSE
+Four              4767
+Five              2870
+Three             2345
+Six               1090
+Two                592
+Seven              372
+Eight              164
+Nueve               74
+Ten                 52
+Twelve or more      32
+0                   21
+Once                19
+One                 13
+Name: count, dtype: int64
+
+INTERNET
+Yes    9752
+No     2659
+Name: count, dtype: int64
+
+TV
+Yes    10569
+No      1842
+Name: count, dtype: int64
+
+COMPUTER
+Yes    10174
+No      2237
+Name: count, dtype: int64
+
+WASHING_MCH
+Yes    7688
+No     4723
+Name: count, dtype: int64
+
+MIC_OVEN
+Yes    8570
+No     3841
+Name: count, dtype: int64
+
+CAR
+No     6602
+Yes    5809
+Name: count, dtype: int64
+
+DVD
+Yes    9322
+No     3089
+Name: count, dtype: int64
+
+FRESH
+Yes    12030
+No       381
+Name: count, dtype: int64
+
+PHONE
+Yes    11890
+No       521
+Name: count, dtype: int64
+
+MOBILE
+Yes    8847
+No     3564
+Name: count, dtype: int64
+
+REVENUE
+Between 1 and less than 2 LMMW     3873
+Between 2 and less than 3 LMMW     2783
+Between 3 and less than 5 LMMW     2239
+less than 1 LMMW                   1037
+Between 5 and less than 7 LMMW      973
+10 or more LMMW                     718
+Between 7 and less than 10 LMMW     509
+0                                   279
+Name: count, dtype: int64
+
+JOB
+No                                  11909
+Yes, less than 20 hours per week      230
+0                                     138
+Yes, 20 hours or more per week        134
+Name: count, dtype: int64
+
+SCHOOL_NAT
+PRIVATE    6565
+PUBLIC     5846
+Name: count, dtype: int64
+
+SCHOOL_TYPE
+ACADEMIC              7834
+TECHNICAL/ACADEMIC    3513
+TECHNICAL             1059
+Not apply                5
+Name: count, dtype: int64
+
+
+UNIVERSITY
+UNIVERSIDAD DE LOS ANDES-BOGOTÁ D.C.                                    696
+UNIVERSIDAD INDUSTRIAL DE SANTANDER-BUCARAMANGA                         397
+ESCUELA COLOMBIANA DE INGENIERIA"JULIO GARAVITO"-BOGOTÁ D.C.            397
+UNIVERSIDAD DEL NORTE-BARRANQUILLA                                      376
+UNIVERSIDAD DISTRITAL"FRANCISCO JOSE DE CALDAS"-BOGOTÁ D.C.             335
+                                                                       ... 
+INSTITUTO TOLIMENSE DE FORMACION TECNICA PROFESIONAL -ESPINAL             3
+CORPORACION UNIFICADA NACIONAL DE EDUCACION SUPERIOR-CUN-BOGOTÁ D.C.      2
+ESCUELA DE INGENIEROS MILITARES-BOGOTÁ D.C.                               2
+ESCUELA TECNOLOGICA INSTITUTO TECNICO CENTRAL -BOGOTÁ D.C.                1
+UNIVERSIDAD MANUELA BELTRAN-UMB--BUCARAMANGA                              1
+Name: count, Length: 134, dtype: int64
+
+ACADEMIC_PROGRAM
+INDUSTRIAL ENGINEERING                           5318
+CIVIL ENGINEERING                                3320
+MECHANICAL ENGINEERING                           1135
+CHEMICAL ENGINEERING                             1000
+ELECTRONIC ENGINEERING                            849
+ELECTRIC ENGINEERING                              278
+MECHATRONICS ENGINEERING                           82
+CATASTRAL ENGINEERING AND GEODESY                  78
+PRODUCTION ENGINEERING                             60
+ELECTRIC ENGINEERING AND TELECOMMUNICATIONS        47
+AERONAUTICAL ENGINEERING                           44
+TOPOGRAPHIC ENGINEERY                              42
+ELECTROMECHANICAL ENGINEERING                      34
+PRODUCTIVITY AND QUALITY ENGINEERING               29
+TRANSPORTATION AND ROAD ENGINEERING                27
+INDUSTRIAL AUTOMATIC ENGINEERING                   22
+CONTROL ENGINEERING                                20
+CIVIL CONSTRUCTIONS                                14
+AUTOMATION ENGINEERING                             10
+INDUSTRIAL CONTROL AND AUTOMATION ENGINEERING       1
+TEXTILE ENGINEERING                                 1
+Name: count, dtype: int64
+
+PERCENTILE
+100    361
+98     354
+97     352
+95     323
+99     322
+      ... 
+4       30
+7       29
+2       27
+1       25
+3       22
+Name: count, Length: 100, dtype: int6
+
+CORELATIONS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Absolute correlation coefficient between 'GENDER' and 'PERCENTILE': 0.04 >>> no CORELATIONS
+Absolute correlation coefficient between 'EDU_FATHER' and 'PERCENTILE': 0.11 >>> no CORELATIONS
+Absolute correlation coefficient between 'EDU_MOTHER' and 'PERCENTILE': 0.1
